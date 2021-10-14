@@ -11,7 +11,7 @@ public class Application {
         Button button = new Button();
         button.addObserver(new Observer() {
             public void update(Observable o, Object arg) {
-                System.out.println(o+" is Clicked");
+                System.out.println(o + " is Clicked");
             }
         });
 
